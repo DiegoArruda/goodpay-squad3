@@ -12,24 +12,27 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .calc {
   border: 4px double #82c418;
   border-radius: 25px;
+  margin-top: 80px;
 }
 
 .tamanho-entrada {
   width: 800px;
+  display: flex;
 }
 
-.calc h1,
-.calc div {
-  margin: 20px;
+h1 {
+  display: flex;
+  justify-content: center;
 }
 
 .margem {
-  margin-top: 15px;
+  margin: 15px 0;
 }
 
 .margem button {
